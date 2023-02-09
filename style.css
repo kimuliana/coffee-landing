@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header {
+  background: #1c1814;
+}
+body{
+    background: #14110E;
+}
+.custom-container{
+    width: 992px;
+    margin: 0 auto;
+}
+.nav-link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.navbar-nav .nav-link.active{
+    color: #c99e71;
+}
+h1{
+    font-weight: 400;
+font-size: 72px;
+line-height: 130%;
+color: #FFFFFF;
+}
+h4{
+    font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+color: #FFFFFF;
+
+}
+h4 >span{
+    color: #C99E71;
+}
+p, button{
+    font-weight: 500;
+font-size: 20px;
+line-height: 180%;
+text-transform: capitalize;
+color: rgba(255, 255, 255, 0.8);
+}
+.about{
+    background-image: url(./img/main/about.png);
+    background-size: cover;
+    background-position: center;
+    height: 740px;
+}
+.about button{
+    width: 202px;
+height: 70px;
+left: 375px;
+top: 628px;
+background: #C99E71;
+border: none;
+}
+.play-btn{
+    padding-bottom: 90px;
+}
+.flavour-cards >div{
+    width: 366px;
+}
